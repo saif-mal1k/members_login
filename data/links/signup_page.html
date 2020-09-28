@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>sign-up</title>
+    <script type="text/javascript" src="assets\js\main.js"></script>
+    <link href="assets\css\main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="container">
+    <h1 id="heading">Membership sign-up page</h1>
+    <form action="assets/xml/members.xml">
+        <p id="content">
+            <label for="username">
+                chose your username : </label>
+            <input id="username" type="text" onclick="e_mail(mail_input)" value="member007" name="username_input"><br>
+            <label for="email">
+                enter your email id here: </label>
+            <input id="email" type="email" onclick="e_mail(mail_input)" value="yourname@letstalk.com"
+                name="mail_input"><br>
+            <label for="password">
+                enter your password here:
+            </label>
+            <input id="password" type="password" onclick="pass_get(pass_input)" oninput="output()" value="password"
+                name="pass_input"><br><br>
+            <input id="a" type="submit" onclick="check_input()" value="sign up">
+        </p>
+    </form>
+    </div>
+</body>
+
+</html>
