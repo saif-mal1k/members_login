@@ -12,6 +12,10 @@ footer{
     color: mintcream;}
 #content{text-align: center; font-size: large;font-style: italic;color: brown}
 #logo{text-align: left; font-size: medium;}
+#sign_container{
+    background-color: seashell;border-color: brown;
+    border-style: solid;border-width: 5px;border-radius:20px ;
+    margin-top: 2%;width:600px; }
 
 
 
