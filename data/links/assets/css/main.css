@@ -30,10 +30,11 @@ img{max-width: 100%; max-height: 10%;}
 
 /*----------------------------signin/signup-----------------------------------*/
 /*------------this is for container card on signin and signup pages------------*/
-#sign_container{
+#signin_signup{
+    grid-area: signin_signup ;
     background-color: seashell;border-color: brown;
     border-style: solid;border-width: 5px;border-radius:20px ;
-    margin-top: 2%;width:600px;
+    margin-top: auto;width:600px;
     margin-left: auto;margin-right: auto; }
 
 /*--------------------for input box(signin/signup)---------------------------*/
@@ -64,7 +65,15 @@ img{max-width: 100%; max-height: 10%;}
 
 /* class selector */
 /*----------------------------grid layout--------------------------------*/
-/*------------------------grid layout on index page----------------------*/ 
+/*-------------------grid layout on signin signup page-------------------*/ 
+.signin_signup-grid{
+    background-color: seashell;
+    display: grid;
+    min-height: fit-content;
+    grid-template-areas:'logo'
+                        'signin_signup';}
+
+/*------------------------grid layout on index page----------------------*/
 .index-grid{
     min-height: 100%;
     background-color: seashell;
@@ -82,7 +91,7 @@ img{max-width: 100%; max-height: 10%;}
                         'cntnt cntnt cntnt cntnt form   form   form'
                         'cntnt cntnt cntnt cntnt form   form   form'
                         ;}
-/*--------------------elements of grid layout----------------------------*/                        
+/*--------------------elements of grid layout----------------------------*/                       
 .grid-logo{
     align-content:flex-start;
     grid-area: logo;}
