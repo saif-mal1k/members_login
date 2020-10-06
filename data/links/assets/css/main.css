@@ -2,13 +2,18 @@
 /*simple selector*/
 input{border-style: hidden;font-size: larger; background: transparent; }
 body{text-align: center; font-size: x-large;}
+logo{color:lightsalmon;font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: static;}
+logo:hover{color: lawngreen; font-style: italic;font-weight: bolder;font-size: x-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 
 /*-----------------------footer note layout----------------------------------*/ 
 footer{
     height: 50px; position: relative ; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small; clear: both; margin-top: -50px ;
-    background-color: maroon; 
+    background-color: maroon;
     color: mintcream;}
 
 #content{text-align: center; font-size: large;font-style: italic;color: brown}
