@@ -2,6 +2,17 @@
 /*simple selector*/
 input{border-style: hidden;font-size: larger; background: transparent; }
 body{text-align: center; font-size: x-large;}
+#assist{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color: brown;font-size:medium ;
+     border:100%; border-style: inset;
+     border-radius: 20px;
+     border-width: 4px;
+     border-color: brown;}
+#assist:hover{border-width: 4px;
+        border-color: brown;
+        color: seashell;border-style: outset;
+        border-color: brown;
+        background-color: brown}
 
 /*-----------------------footer note layout----------------------------------*/ 
 footer{
@@ -90,6 +101,7 @@ img{max-width: 100%; max-height: 10%;}
                         'cntnt cntnt cntnt cntnt form   form   form'
                         'cntnt cntnt cntnt cntnt form   form   form'
                         'cntnt cntnt cntnt cntnt form   form   form'
+                        'cntnt cntnt cntnt cntnt askme  askme  askme'
                         ;}
 /*--------------------elements of grid layout----------------------------*/                       
 .grid-logo{
@@ -98,6 +110,7 @@ img{max-width: 100%; max-height: 10%;}
 .grid-navbar{grid-area: navbar;}
 .grid-cntnt{grid-area: cntnt;}
 .grid-form{grid-area: form;}
+.grid-askme{grid-area: askme; text-align: center;}
 
 /*-----------------for form( join us) grid on home page--------------------*/
 #joinus{color: green;}
